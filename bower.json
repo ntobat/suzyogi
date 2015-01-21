@@ -1,0 +1,20 @@
+{
+  "name": "suzyogi",
+  "main": "index.js",
+  "version": "0.0.0",
+  "homepage": "https://github.com/ntobat/suzyogi",
+  "authors": [
+    "Nick <ntobat@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1"
+  }
+}

@@ -1,0 +1,234 @@
+/*global*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, img, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, hgroup, menu, nav, summary, time, mark, audio, video, header, footer {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+	background: transparent;
+}
+a:hover{
+	text-decoration: none;
+}
+a:active{
+	text-decoration: none;
+}
+
+/*body*/
+body{
+	font-size: 100%;
+	font-family: 'Julius Sans One', sans-serif;
+	width: auto;
+	height: auto;
+	font-weight: normal;
+}
+body{
+	display: block;
+}
+div{
+	display: block;
+}
+#container{
+	width: 100%;
+	margin: 0 auto;
+	max-width: 1300px !important;
+	overflow: hidden;
+}
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+
+/*header*/
+#header {
+	width: 100%;
+	position: relative;
+	margin: 0 0 0 0 !important;
+	text-align: center;
+	border-bottom: .5em solid #ff6b40;
+}
+#header .top{
+	padding: 0 30px;
+}
+#header .inside{
+	max-width: 62.5em;
+	margin: 0 auto;
+	position: relative;
+	padding: 40px 0 40px 0;
+}
+.clearfix{
+	zoom: 1;
+}
+.clearfix:after{
+	clear: both;
+}
+.clearfix:before, .clearfix:after{
+	content: "";
+	display: table;
+}
+#logo{
+	display: inline-block;
+	margin: 0px 0 0 0;
+	float: left;
+	padding: 0;
+}
+#header h1{
+	font-size: 2em;
+	color: #252525;
+}
+.logo h1{
+	margin: 0 !important;
+	line-height: 1em !important;
+	padding: 0 !important;
+	font-weight: normal;
+}
+#mainNav{
+	right: 0;
+	position: absolute;
+	top: 50%;
+	height: 20px;
+	margin-top: -10px;
+	display: inline-block;
+}
+#menu-suzyogi{
+	line-height: 1.0;
+	list-style: none;
+}
+#menu-suzyogi li{
+	float: left;
+	position: relative;
+	width: auto;
+}
+#menu-suzyogi li a{
+	color: #252525;
+	font-size: 140%;
+}
+#mainNav li{
+	margin: 0 0 0 30px;
+	display: inline-block;
+	padding: 0;
+}
+#mainNav .tinynav{
+	display: none;
+}
+
+/*photobanner*/
+.photobanner{
+	height: 320px;
+	width: 5800px;
+	margin-bottom: 80px;
+}
+/*.photobanner img {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.photobanner img:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+ 
+    -webkit-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+    box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+}*/
+.first {
+    -webkit-animation: bannermove 25s linear infinite;
+       -moz-animation: bannermove 25s linear infinite;
+        -ms-animation: bannermove 25s linear infinite;
+         -o-animation: bannermove 25s linear infinite;
+            animation: bannermove 25s linear infinite;
+}
+ 
+@keyframes "bannermove" {
+ 0% {
+    margin-left: 0px;
+ }
+ 100% {
+    margin-left: -2350px;
+ }
+ 
+}
+ 
+@-moz-keyframes bannermove {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2350px;
+ }
+ 
+}
+ 
+@-webkit-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2350px;
+ }
+ 
+}
+ 
+@-ms-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2350px;
+ }
+ 
+}
+ 
+@-o-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2350px;
+ }
+ 
+}
+/*insta*/
+.insta{
+	border-top: .5em solid #ff6b40;
+	padding-top: .5em;
+}
+.insta img{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+/*quote*/
+.quote{
+	margin-top: 60px;
+	margin-left: 60px;
+	margin-right: 60px;
+	padding-bottom: 40px;
+	margin-bottom: 30px;
+	border-bottom: .1em solid #785F5C;
+}
+.quote p{
+	text-align: center;
+}
+
+/*copyright*/
+.copyright{
+	margin-left: 60px;
+}
+.copyright p{
+	font-size: 75%;
+}
+
+
+

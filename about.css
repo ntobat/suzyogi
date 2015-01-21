@@ -1,0 +1,105 @@
+body{
+	background: #414141 url(http://www.abundanthealth.net.au/wp-content/uploads/2014/06/IMG_3991.jpg) top center no-repeat;
+}
+
+
+/*header*/
+header{
+	font-family: 'Julius Sans One', "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	width: 100%;
+	height: 4em;
+	border-bottom: 0.25em solid #910818;
+	background-color: rgba(255, 255, 255, 0.35);
+}
+.name{
+	position: relative;
+	top: 1.2em;
+	left: 5em;
+}
+.name a{
+	color: #000;
+	text-decoration: none;
+	font-size: 42px;
+}
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+	position: relative;
+	right: 8em;
+	float: right;
+	top: -0.4em;
+}
+nav ul li{
+	display: inline;
+}
+nav ul li a{
+	text-decoration: none;
+	padding: .2em 1em;
+	color: #2E2935;
+	font-size: 20px;
+}
+nav ul li a:hover{
+	color: #000;
+	box-shadow: 0px -2px 1px #910818;
+}
+nav ul li a:active{
+	color: #000;
+	box-shadow: 0px -2px 1px #910818;
+}
+
+/*bio*/
+.bio{
+	width: 45%;
+	height: 570px;
+	overflow: auto;
+	float: left;
+	margin: 75px 0px 40px 84px;
+	padding: 15px;
+	font-family: 'Merriweather', serif;
+	text-align: justify;
+	box-shadow: 1px 2px 5px #910818;
+	background-color: rgba(255, 255, 255, 0.35);
+}
+.title{
+	font-family: 'Julius Sans One', 'Lucida Grande', sans-serif;
+	font-size: 30px;
+}
+.link{
+	text-decoration: none;
+	color: white;
+}
+/*quotes*/
+.quotes{
+	width: 30%;
+	height: 570px;
+	overflow: auto;
+	float: right;
+	margin: 75px 120px 40px 0px;
+	padding: 15px;
+	font-family: 'Merriweather', serif;
+	font-style: italic;
+	text-align: justify;
+	background-color: rgba(255, 255, 255, 0.35);
+	box-shadow: 1px 2px 5px #910818;
+
+}
+.quote-title{
+	font-family: 'Julius Sans One', 'Lucida Grande', sans-serif;
+	font-size: 30px;
+	position: relative;
+	top: 4px;
+	left: 40px;
+}
+.quotes ul{
+	list-style-type: none;
+}
+.author{
+	line-height: 2;
+	font-style: normal;
+}
+
+
+
+
